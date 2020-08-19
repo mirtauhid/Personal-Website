@@ -22,7 +22,7 @@ section{
     background-repeat: no-repeat;
 }
 .reddish-text{
-    color: #EC4C7A;
+    color: #ec3367;
     font-size: 40px;
     font-weight: 700;
     margin-top: -2%;
@@ -33,6 +33,11 @@ section{
     background-image: linear-gradient(45deg,#EC5196,#ED4B71);
     padding: 10px 30px;
     border-radius: 5px;
+}
+.link-button:hover{
+    background-image: none;
+    background-color: black;
+    color: yellow;
 }
 .half-width{
     width: 40%;
@@ -92,6 +97,9 @@ section{
 .work-width img{
     width: 100%;
 }
+.work-width img:hover {
+    border: 3px solid #E8E9F1;
+}
 .work-1{
     margin-left: 10%;
 }
@@ -138,6 +146,7 @@ section{
     text-align: center;
     background-image: linear-gradient(45deg,#EC5196,#ED4B71);
     margin-left: 30%;
+    cursor: pointer;
 }
 .copyright p{
     color: #7A7A7A;
